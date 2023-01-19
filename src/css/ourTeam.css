@@ -1,0 +1,299 @@
+.ourTeamRoot {
+  /* filter: drop-shadow(-20rem 20px 10.75rem rgb(13, 231, 255)); */
+  background-image: url("../Images/ourTeamBackground.png");
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.heroSecOurTeam {
+  padding-top: 200px;
+  /* background-color: red; */
+  width: 78%;
+  margin: 0 auto;
+}
+.ourTeamHeroImg {
+  width: 210%;
+  height: 500px;
+  margin-top: -100px;
+  margin-left: -350px;
+}
+.heroSecOurTeam h5 {
+  color: #876fdb;
+  font-size: 15px;
+}
+.heroSecOurTeam h1 {
+  color: #000000;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+.heroSecOurTeam h1 span {
+  color: #876fdb;
+  margin-left: 12px;
+}
+.ourTeamPurpleLine {
+  position: absolute;
+  width: 120px;
+  margin-top: 50px;
+  margin-left: -10px;
+}
+.heroSecOurTeam p {
+  width: 80%;
+  font-weight: 500;
+  line-height: 17px;
+  color: black;
+}
+.ourTeamMainCont {
+  /* background-color: red; */
+  width: 80% !important;
+}
+.services-box {
+  width: 110%;
+  background-color: white;
+  border-radius: 25px !important;
+  box-shadow: none !important;
+  border: 2px solid rgb(224, 223, 223) !important;
+}
+.ourTeamMainCont > .services-box > img {
+  margin-left: -50px;
+  margin-top: -40px;
+  /* width: 360px; */
+  width: 134%;
+  margin-bottom: -40px;
+}
+.ourTeamSecUserImg {
+  margin-left: -20px !important;
+  /* width: 312px !important; */
+  width: 116% !important;
+  margin-bottom: 10px !important;
+}
+.ourTeamMainCont h1 {
+  font-size: 30px !important;
+  margin-bottom: 0px !important;
+  color: black !important;
+  font-weight: 600 !important;
+}
+.ourTeamMainCont p {
+  line-height: 18px;
+  width: 105% !important;
+  text-align: start !important;
+  font-weight: normal !important;
+  color: rgb(102, 102, 102) !important;
+  font-size: 14.5px !important;
+}
+.ourTeamUserSocialIcons img {
+  width: 19px;
+  height: 17px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.ourTeamUserSocialIcons {
+  margin-bottom: 150px !important;
+}
+.ellipseCircle {
+  width: 22px !important;
+  height: 22px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  margin-top: 20px;
+}
+.ourTeamMainCont {
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto)) !important;
+}
+.aboutUsHeroSec {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.aboutUsHeroSec h1 {
+  font-size: 46px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+.aboutUsHeroSec p {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1580px) {
+  .ourTeamHeroImg {
+    margin-left: -250px;
+  }
+  .ourTeamMainCont {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .ourTeamHeroImg {
+    margin-left: -220px;
+    height: 400px;
+    margin-top: -50px;
+  }
+  .ourTeamMainCont {
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto)) !important;
+  }
+  .ourTeamMainCont > .services-box > h1:nth-child(2) {
+    margin-top: 15px !important;
+  }
+  .ourTeamMainCont h1 {
+    font-size: 26px !important;
+  }
+  .ourTeamMainCont p {
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .ourTeamMainCont {
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto)) !important;
+  }
+  .ourTeamSecUserImg {
+    margin-bottom: 25px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ourTeamHeroImg {
+    width: 200%;
+    margin-left: -180px;
+  }
+  .aboutUsHeroSec h1 {
+    font-size: 42px;
+    margin-top: -30px;
+  }
+  .aboutUsHeroSec p {
+    width: 100% !important;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ourTeamHeroImg {
+    width: 200%;
+    margin-left: -150px;
+    height: 330px;
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ourTeamHeroImg {
+    margin-left: -280px;
+    height: 450px;
+    margin-top: 20px;
+  }
+  .ourTeamHeroSEction {
+    display: block;
+    margin-top: -100px;
+    width: 100%;
+  }
+  .ourTeamHeroSEction .col-6 {
+    max-width: 100% !important;
+  }
+  .ourTeamHeroSEction .col-8 {
+    max-width: 100% !important;
+  }
+  .ourTeamMainCont {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto)) !important;
+  }
+  .ourTeamMainCont h1 {
+    font-size: 23px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ourTeamHeroImg {
+    margin-left: -245px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .ourTeamHeroImg {
+    margin-left: -225px;
+    height: 400px;
+  }
+  .ourTeamMainCont {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto)) !important;
+  }
+  .ourTeamMainCont > .services-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ourTeamHeroImg {
+    margin-left: -205px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .ourTeamHeroImg {
+    margin-left: -185px;
+    height: 350px;
+    margin-bottom: -60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ourTeamHeroImg {
+    margin-left: -170px;
+    height: 300px;
+  }
+  .aboutUsHeroSec {
+    padding-bottom: 40px;
+  }
+  .aboutUsHeroSec h1 {
+    margin-top: -80px;
+    font-size: 37px;
+  }
+  .aboutUsHeroSec p {
+    width: 100% !important;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .ourTeamHeroImg {
+    margin-left: -200px;
+    width: 750px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .ourTeamHeroImg {
+    margin-left: -190px;
+    width: 700px;
+  }
+  .ourTeamMainCont > .services-box > img {
+    margin-left: -45px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .ourTeamMainCont > .services-box > img {
+    margin-left: -40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ourTeamHeroImg {
+    margin-left: -190px;
+    width: 675px;
+  }
+  .ourTeamHeroSEction p {
+    width: 100%;
+  }
+  .ourTeamHeroSEction h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .ourTeamHeroImg {
+    width: 655px;
+    height: 250px;
+  }
+  .ourTeamMainCont > .services-box > img {
+    margin-left: -35px;
+  }
+}
+@media screen and (max-width: 100px) {
+  .ourTeamHeroImg {
+    width: 210%;
+    height: 500px;
+    margin-top: -100px;
+    margin-left: -180px;
+  }
+}

@@ -1,0 +1,245 @@
+.testiPurpleLine {
+  position: absolute;
+  width: 180px;
+  margin-top: 50px;
+}
+.testiHeroImg {
+  /* width: 824%;
+    height: 500px; */
+  margin-top: -150px;
+  margin-left: -50px;
+}
+.testimonialsTesti {
+  /* background-color: red; */
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+.captionHeading {
+  width: 60% !important;
+  margin: 0 auto;
+  line-height: 27px !important;
+  font-weight: 400 !important;
+  color: black !important;
+  margin-bottom: 80px;
+}
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80% !important;
+  margin: 0 auto;
+}
+.flexContainer > span {
+  position: relative;
+  top: 150px;
+}
+.flexContainer > span > img {
+  width: 14px;
+  height: 24px;
+}
+.flexContainer > img {
+  width: 154px;
+}
+.testiDescription {
+  margin-top: 50px !important;
+  width: 70% !important;
+  margin: 0 auto;
+  line-height: 27px !important;
+  font-weight: 400 !important;
+  color: black !important;
+  margin-bottom: 50px;
+}
+.testimonialsTesti h1 {
+  color: #8d6ed8;
+  margin-bottom: -10px;
+}
+.startsDiv {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.startsDiv img {
+  width: 28px !important;
+  height: 26px !important;
+}
+.carousel-slider {
+  padding-bottom: 70px !important;
+}
+.control-dots > li {
+  width: 23px !important;
+  height: 23px !important;
+  background-color: #8a74d8 !important;
+}
+.sliderRootContainer {
+  margin-top: -150px;
+  margin-bottom: -40px;
+}
+.sliderHeadingCaption {
+  margin-top: 150px !important;
+}
+.control-next {
+  background-color: transparent !important;
+}
+.control-prev {
+  background-color: transparent !important;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid rgb(0, 0, 0);
+}
+.carousel .control-prev.control-arrow::before {
+  border-right: 8px solid rgb(0, 0, 0);
+}
+@media screen and (max-width: 1500px) {
+  .testiHeroImg {
+    margin-left: -130px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .testiHeroImg {
+    width: 750px;
+    margin-top: -150px;
+    margin-left: -130px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .testiHeroImg {
+    width: 650px;
+    margin-left: -100px;
+  }
+  .testiHeroRow h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .testiHeroImg {
+    width: 500px;
+    margin-left: -60px;
+    margin-top: -80px;
+  }
+  .testiHeroRow h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .testiHeroRow h1 {
+    font-size: 22px;
+    width: 120%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .testiHeroImg {
+    width: 450px;
+  }
+  .testiHeroRow p {
+    font-size: 13px;
+    width: 110%;
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .testiHeroImg {
+    width: 400px;
+  }
+  .testiHeroRow h1 {
+    font-size: 19px;
+  }
+  .testiPurpleLine {
+    width: 100px;
+    margin-top: 25px;
+  }
+  .testiHeroRow p {
+    font-size: 11px;
+    width: 100%;
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 624px) {
+  .testiHeroImg {
+    width: 350px;
+    margin-top: -75px;
+  }
+  .testiHeroRow h1 {
+    font-size: 17px;
+  }
+  .testiHeroRow p {
+    font-size: 10px;
+  }
+  .testiHeroRow h5 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 584px) {
+  .testiHeroImgDiv {
+    margin-bottom: 600px;
+  }
+  .testiHeroImg {
+    /* width: 550px; */
+    width: 113.5%;
+    margin-top: -20px;
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%, 0);
+  }
+  .testiHeroRow > .col-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+  .testiHeroRow h1 {
+    font-size: 25px;
+    width: 100%;
+  }
+  .testiHeroRow p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .testiHeroRow h5 {
+    font-size: 18px;
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .testiHeroImg {
+    width: 120.5%;
+    margin-top: -20px;
+    left: 63%;
+  }
+  .testimonialsTesti > .captionHeading,
+  .testimonialsTesti > .testiDescription {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 440px) {
+  .testiHeroImg {
+    width: 120.5%;
+    margin-top: -20px;
+    left: 65%;
+  }
+  .testiHeroImgDiv {
+    margin-bottom: 520px;
+  }
+  .testiHeroRow h1 {
+    font-size: 22px;
+  }
+  .testiHeroRow p {
+    font-size: 14px;
+  }
+  .testiHeroRow h5 {
+    font-size: 16px;
+  }
+  .testimonialsTesti h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .testiHeroRow h1 {
+    font-size: 21px;
+  }
+}
+/* @media screen and (max-width: 1500px) {
+    .testiHeroImg{
+        width: 750px;
+        margin-top: -80px;
+        margin-left: -60px;
+    }
+} */

@@ -1,0 +1,139 @@
+.whyUsRoot {
+  /* filter: drop-shadow(-20rem 20px 10.75rem rgb(13, 231, 255)); */
+  background-image: url("../Images/whyUsBackground.png");
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+}
+.whyUsRoot h2 {
+  padding-top: 240px;
+  /* background-color: red; */
+  font-size: 38px;
+  font-weight: 600;
+  color: #8d6ed8;
+}
+.whyUsRoot > h2 > span > img {
+  width: 150px;
+  position: absolute;
+  margin-top: 53px;
+}
+.whyUsRoot > h2 > span {
+  color: black;
+}
+.whyUsRoot p {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  color: black;
+  font-weight: 500;
+}
+.reasonsSection {
+  width: 76%;
+  margin: 0 auto;
+  text-align: start;
+}
+.whyUsIndexCircle {
+  background-color: white;
+  width: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 19px;
+  height: 80px;
+  box-shadow: 3px 2px 5px rgba(158, 155, 155, 0.43);
+  margin-left: -5px;
+  margin-top: 5px;
+  color: #8d6ed8;
+}
+.whyUsIndexCircle h1 {
+  font-size: 35px;
+}
+.handledWidthWhyUs {
+  width: 80%;
+}
+.handledWidthWhyUs h5 {
+  font-weight: 600 !important;
+  font-size: 21px;
+  color: black;
+  margin-bottom: -30px !important;
+}
+.handledWidthWhyUs p {
+  font-weight: normal !important;
+  /* font-size: 21px; */
+  color: black;
+  /* margin-bottom: -30px !important; */
+}
+@media screen and (max-width: 1650px) {
+  .whyUsIndexCircle {
+    margin-left: -25px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .whyUsIndexCircle {
+    margin-left: -30px;
+    margin-top: 11px;
+  }
+  .handledWidthWhyUs h5 {
+    font-size: 19px;
+  }
+  .whyUsRoot h2 {
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .reasonsSection {
+    width: 90%;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 858px) {
+  .whyUsIndexCircle {
+    width: 60px;
+    height: 60px;
+    padding-top: 12px;
+    margin-left: -30px;
+    margin-top: 11px;
+  }
+  .whyUsIndexCircle h1 {
+    font-size: 30px;
+  }
+  .reasonsSection {
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .whyUsRow {
+    display: block;
+  }
+  .whyUsRow > .col-6 {
+    min-width: 100% !important;
+  }
+  .whyUsSecRow{
+    display: inline-flex !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whyUsSecRow {
+    margin-left: -40px;
+  }
+  .whyUsRoot h2{
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .whyUsIndexCircle {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    margin-top: 11px;
+  }
+  .whyUsIndexCircle h1 {
+    font-size: 25px;
+  }
+  .whyUsSecRow h5{
+    font-size: 16px;
+  }
+  .whyUsSecRow p{
+    font-size: 13px;
+  }
+}

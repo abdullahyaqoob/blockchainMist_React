@@ -1,0 +1,300 @@
+.ourPortfolioRoot {
+  width: 74% !important;
+  padding-top: 200px !important;
+  color: black !important;
+  height: 755px !important;
+}
+.ourPortfolioContext h5,
+.ourPortfolioContext h1,
+.ourPortfolioContext p {
+  color: black !important;
+}
+.ourPortfolioContext h5 {
+  font-size: 18px;
+  color: #8d6ed8 !important;
+  margin-bottom: 30px;
+}
+.ourPortfolioContext h1 {
+  font-size: 36px;
+  color: black !important;
+  margin-bottom: 80px;
+}
+.ourPortfolioPurpleLIn {
+  position: absolute;
+  width: 340px;
+  height: 25px;
+  z-index: -1;
+  margin-left: -12px;
+  margin-top: 15px;
+}
+.ourPortfolioContext p {
+  font-weight: 600 !important;
+  margin-bottom: 80px;
+}
+.portBtn {
+  width: 280px !important;
+}
+.portHeroImg {
+  height: 485px !important;
+  width: 850px !important;
+  margin-left: -100px !important;
+  margin-top: -15px !important;
+}
+.portPorfolioSection {
+  padding-top: 250px;
+  background-image: url("../Images/ourPortfolioBackground.png");
+  background-position: top center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+.ourPortSection h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: black;
+  margin-bottom: 10px;
+}
+.ourPortSectionFlex {
+  width: 70% !important;
+}
+.ourPortSectionFlex img {
+  /* height: 900px; */
+  height: 100%;
+  width: 100%;
+  /* width: 1200px; */
+  margin-bottom: -60px;
+}
+.ourPortSectionFlex > span {
+  margin-top: 220px;
+}
+.ourPortSection > h1 {
+  font-size: 30px;
+  font-weight: 600 !important;
+  margin-top: 5px;
+}
+.ourPortSection > p {
+  width: 50% !important;
+}
+.ourPortfolioEllipse > .ellipseCircle {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50%;
+}
+@media screen and (max-width: 1600px) {
+  .portHeroImg {
+    height: 430px !important;
+    width: 750px !important;
+    margin-top: -0px !important;
+  }
+}
+
+@media screen and (max-width: 1486px) {
+  .ourPortfolioContext h1 {
+    font-size: 30px;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 1289px) {
+  .ourPortfolioContext h1 {
+    font-size: 26px !important;
+    line-height: 30px !important;
+  }
+
+  .ourPortfolioPurpleLIn {
+    width: 250px;
+    height: 20px;
+    margin-left: 0px;
+  }
+  .portHeroImg {
+    height: 300px !important;
+    width: 550px !important;
+    margin-top: 50px !important;
+    margin-left: -50px !important;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: 80px;
+  }
+  .ourPortSection h1:first-of-type{
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .portHeroImg {
+    margin-top: 20px !important;
+  }
+  .ourPortfolioContext h5 {
+    font-size: 16px;
+    margin-bottom: 60px !important;
+  }
+  .ourPortfolioContext p {
+    margin-top: -50px;
+    font-weight: 500 !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .portHeroImg {
+    height: 220px !important;
+    width: 400px !important;
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+  }
+  .ourPortfolioContext p {
+    margin-bottom: 60px !important;
+  }
+  .ourPortfolioContext h1 {
+    font-size: 23px !important;
+    line-height: 27px !important;
+  }
+  .ourPortfolioPurpleLIn {
+    width: 200px;
+    height: 17px;
+    margin-top: 7px;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: 40px;
+  }
+  .ourPortSection h1{
+    font-size: 25px;
+  }
+  .ourPortSection p{
+    font-size: 13px;
+    margin-top: 40px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .portHeroImg {
+    height: 150px !important;
+    width: 300px !important;
+    margin-top: 80px !important;
+    margin-left: 20px !important;
+  }
+  .ourPortfolioContext h1 {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+  .portBtn {
+    width: 200px !important;
+    height: 40px !important;
+    font-size: 13px !important;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .portFirstRow {
+    display: block;
+  }
+  .portFirstRow > .col-6 {
+    min-width: 100%;
+  }
+  .ourPortfolioContext h1 {
+    font-size: 30px !important;
+    line-height: 33px !important;
+  }
+  .ourPortfolioContext p {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+  .ourPortfolioContext h5 {
+    margin-top: -80px;
+  }
+  .portHeroImg {
+    height: auto !important;
+    /* width: 450px !important; */
+    width: 94% !important;
+    margin-top: 50px !important;
+    margin-left: 0px !important;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 584px) {
+  .ourPortfolioContext h5 {
+    margin-bottom: 90px !important;
+  }
+  .ourPortfolioContext h1 {
+    font-size: 26px !important;
+    line-height: 30px !important;
+  }
+  .ourPortfolioContext p {
+    font-size: 13px !important;
+  }
+  .ourPortSection h2{
+    font-size: 28px;
+  }
+  .ourPortSectionFlex > span>img {
+    width: 10px;
+    height: 15px;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ourPortfolioContext h1 {
+    font-size: 20px !important;
+    line-height: 23px !important;
+    margin-bottom: 60px !important;
+  }
+  .ourPortfolioContext p {
+    font-size: 12px !important;
+  }
+  .ourPortfolioRoot {
+    margin-bottom: -100px !important;
+  }
+  .ourPortfolioContext h5 {
+    font-size: 13px !important;
+  }
+  .ourPortSection h2{
+    font-size: 25px;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: -50px;
+  }
+  .ourPortSectionFlex {
+    width: 90% !important;
+    margin-left: 13px;
+  }
+  .ourPortSection p{
+    max-width: 90% !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .ourPortSectionFlex > span {
+    margin-top: -65px;
+  }
+  .ourPortSectionFlex {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ourPortfolioContext h5 {
+    margin-bottom: 100px !important;
+  }
+  .ourPortfolioContext h1 {
+    font-size: 18px !important;
+  }
+  .ourPortfolioPurpleLIn {
+    width: 150px;
+    height: 15px;
+  }
+  .ourPortfolioContext p {
+    font-size: 11px !important;
+  }
+  .ourPortSection h2{
+    font-size: 21px;
+  }
+  .ourPortSectionFlex > span {
+    margin-top: -80px;
+  }
+  .ourPortSectionFlex {
+    margin-left: 12px;
+  }
+  .ourPortSection h1{
+    font-size: 22px;
+  }
+}

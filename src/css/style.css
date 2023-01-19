@@ -1,0 +1,1383 @@
+li,
+span {
+  cursor: pointer;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  z-index: 99;
+  border-bottom: 5px solid rgb(243, 240, 240);
+}
+.nav {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar img {
+  height: 151px;
+  width: 268px;
+  margin: 0;
+  position: absolute;
+  top: -49px;
+}
+.navbar ul {
+  position: relative;
+  top: 8px;
+  margin-left: 100px;
+}
+#collapseBox {
+  position: absolute;
+  right: 0px;
+  background-color: #808dd9;
+  height: 100vh;
+  margin-top: -10px;
+  width: 300px;
+  background-image: linear-gradient(
+    180.46deg,
+    #808dd9 20.45%,
+    rgb(27, 27, 27) 80.66%
+  );
+  padding: 70px 20px;
+}
+
+.floatingWhatSapp {
+  background-color: #52d366;
+  position: fixed;
+  right: 25px;
+  bottom: 30px;
+  padding: 12px;
+  border-radius: 50%;
+  border: none;
+}
+#navBarToggler,
+#navBarTogglerCross {
+  width: 60px !important;
+  height: 30px !important;
+  margin-top: 60px !important;
+  z-index: 99 !important;
+  margin-left: -60px;
+}
+#navBarTogglerCross {
+  height: 25px !important;
+  width: 25px !important;
+  margin-left: 20px;
+}
+#collapseBox ul {
+  margin-left: 0;
+}
+#collapseBox ul li {
+  display: block;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: normal;
+  color: white;
+}
+.navbar ul li {
+  display: inline;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #7d9cda;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.navbar ul li:hover {
+  border-bottom: 2px solid black;
+  border-radius: 3px;
+}
+.heroPageFirstBackground {
+  height: 70px;
+}
+.mainPage {
+  height: 100vh;
+  padding-top: 50px;
+  background-image: url("../Images/mainPageHeroBackground.png");
+  background-size: cover;
+  background-position: bottom;
+}
+.heroPage {
+  width: 82%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.heroImg {
+  margin-left: -250px;
+  margin-top: -20px;
+  width: 1150px;
+  height: 670px;
+}
+.socialMediaIcons ul li {
+  display: inline;
+  float: right;
+  margin-right: 15px;
+  position: relative;
+  right: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+  z-index: 999 !important;
+}
+.socialMediaIcons ul li img {
+  width: 18px;
+}
+.heroPageContext h1 {
+  color: white;
+  font-weight: bold;
+  line-height: 42px;
+}
+.heroPageContext p {
+  width: 89%;
+  color: white;
+  font-weight: bold;
+  line-height: 18px;
+}
+.heroPageContext button {
+  height: 40px;
+  line-height: 18px;
+  width: 166px;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  margin-left: 7px;
+  position: relative;
+  background-color: rgba(215, 23, 212, 0.8);
+  z-index: 5;
+  padding-bottom: 16px;
+  font-size: 17px;
+}
+.hero-btn {
+  background-color: rgba(42, 198, 255, 0.6);
+  position: absolute;
+  top: -9px;
+  width: 165px;
+  height: 40px;
+  margin-left: -14px;
+  border-radius: 8px;
+  z-index: -1;
+}
+.webMobDevSection {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.webDevPurpleLine {
+  position: absolute;
+  margin-top: 80px;
+  z-index: -1;
+}
+.webMobDevSection h1 {
+  color: black;
+  font-weight: bold;
+}
+.webMobDevSection p {
+  color: black;
+  font-weight: 500;
+}
+
+/* aboutUsPopup */
+.aboutUsPopup {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 99;
+  margin-top: 57px;
+}
+.aboutUsContainer {
+  width: 83%;
+  margin-left: -210px;
+  border-bottom: 2px solid rgb(230, 230, 230);
+  border-right: 2px solid rgb(230, 230, 230);
+  border-radius: 15px;
+  /* border-bottom: 14px; */
+  z-index: 99;
+}
+.aboutUsPopupFirstRow,
+.aboutUsPopupSecRow {
+  padding-top: 15px;
+  padding-right: 12px;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.aboutUsPopupSecRow {
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  margin-top: -10px;
+}
+.aboutUsPopupSecRow p {
+  margin-bottom: 10px;
+}
+
+.aboutUsContainer h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #7d9cda;
+  margin-top: 7px;
+}
+.aboutUsContainerPara {
+  margin-top: -7px;
+  font-size: 9px;
+  width: 120%;
+  /* background-color: red; */
+  color: #7d9cda;
+  font-weight: bold;
+}
+.aboutUsContainer img {
+  width: 50px;
+  margin-left: -8px;
+}
+.servicesHeadingProviding {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #c61e77;
+}
+
+.servicesHeadingProviding span {
+  color: #85019b;
+}
+.services-heading {
+  width: 100% !important;
+}
+.servicesHeadingPrplLne {
+  position: absolute;
+  /* margin-left: 500px; */
+  left: 40%;
+  transform: translate(-50%, 0);
+  height: 35px;
+  width: 300px;
+  margin-top: -10px;
+}
+@media screen and (max-width: 1430px) {
+  .nabarFlexDot {
+    display: none;
+  }
+  .heroImg {
+    margin-left: -150px;
+    margin-top: 35px;
+    width: 950px;
+    height: 480px;
+  }
+  .aboutUsPopup {
+    left: 50%;
+    transform: translate(15%, 0);
+  }
+  .socialMediaIcons ul li {
+    margin-top: 30px;
+  }
+  .heroPageContext h1 {
+    font-size: 31px;
+  }
+  .heroPageContext p {
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .right-dapps-services img {
+    width: 900px;
+    margin-left: -220px;
+    margin-top: -10px;
+  }
+
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    column-gap: 3em;
+    row-gap: 1em;
+  }
+  .dapp-architecture-image img {
+    width: 140%;
+    margin-left: -243px;
+  }
+  .left-webAndMob-services img {
+    width: 1000px;
+    margin-left: -220px;
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 1243px) {
+  .heroImg {
+    width: 800px;
+    height: 400px;
+  }
+  .heroPageContext h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .heroPageContext p {
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 15px;
+  }
+  .right-dapps-services img {
+    width: 800px;
+    margin-left: -150px;
+    margin-top: 15px;
+  }
+  .dapp-architecture-image img {
+    width: 120%;
+    margin-left: -110px;
+  }
+  .left-webAndMob-services img {
+    width: 950px;
+  }
+
+  .portfolio-left-side img {
+    width: 600px;
+    margin-top: -50px;
+  }
+
+  .navbar ul li {
+    display: inline;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .portfolio-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    column-gap: 9em;
+    row-gap: 4.5em;
+  }
+  .portfolio-box {
+    margin-left: 0px !important;
+  }
+  .webApps-development-services-container {
+    height: 500px;
+    margin-top: -60px;
+  }
+  .dapps-services-box h1 {
+    margin-top: -12px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .heroPageContext h1 {
+    margin-top: -40px;
+  }
+  .heroImg {
+    margin-left: -120px;
+    margin-top: 55px;
+    width: 730px;
+    height: 380px;
+  }
+  .heroPageContext h1 {
+    font-size: 25px;
+    width: 110%;
+  }
+  .heroPageContext p {
+    font-size: 13px;
+  }
+  .right-dapps-services img {
+    width: 750px;
+    margin-left: -200px;
+    margin-top: 45px;
+  }
+
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+  }
+  .webAppsTable {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+  .dapp-architecture-image img {
+    margin-left: -100px;
+  }
+  .portfolio-left-side img {
+    width: 450px;
+    margin-left: -20px;
+    margin-top: 0px;
+  }
+  .portfolio-box {
+    margin-left: -60px !important;
+  }
+  .left-webAndMob-services img {
+    width: 800px;
+    margin-left: -220px;
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .desktopNavBar {
+    display: none;
+  }
+  .mobileNavBar {
+    display: initial !important;
+  }
+  .socialMediaIcons ul li {
+    margin-top: 10px;
+  }
+  .heroImg {
+    width: 700px;
+    margin-left: -80px;
+    height: 330px;
+  }
+  .heroPageContext h1 {
+    font-size: 23px;
+    width: 120%;
+  }
+  .heroPageContext p {
+    width: 100%;
+    font-size: 12px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+  }
+  .webDevPurpleLine {
+    position: absolute;
+    left: 35%;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+    column-gap: 2em;
+    row-gap: 0px;
+  }
+  .dapps-services-table svg {
+    margin-top: 10px;
+  }
+  .dapps-services-table h1 {
+    font-size: 13px;
+  }
+  .right-dapps-services img {
+    width: 650px;
+    margin-left: -220px;
+    margin-top: 110px;
+  }
+  .left-webAndMob-services img {
+    width: 700px;
+    margin-left: -150px;
+    margin-top: -90px;
+  }
+  .webApps-development-services-container {
+    height: 450px;
+    margin-top: -50px;
+  }
+  .feature-heading p {
+    width: 110%;
+  }
+  .portfolio-left-side img {
+    margin-left: -40px;
+  }
+  .firstPortfolioImg {
+    margin-left: -30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .dapp-architecture-image img {
+    margin-left: -80px;
+  }
+  .heroImg {
+    width: 650px;
+    margin-left: -120px;
+    height: 310px;
+  }
+  .heroPageContext h1 {
+    font-size: 21px;
+    width: 125%;
+  }
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  }
+  .webAppsTable {
+    margin-left: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  }
+}
+@media screen and (max-width: 862px) {
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  }
+  .portfolio-table {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  }
+  .left-webAndMob-services img {
+    width: 700px;
+    margin-left: -200px;
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 807px) {
+  .webDevPurpleLine {
+    left: 32%;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .webDevPurpleLine {
+    margin-top: 90px;
+  }
+  .heroPageContext h1 {
+    font-size: 20px;
+  }
+  .heroPageContext p {
+    width: 110%;
+    font-size: 11px;
+    margin-top: -35px;
+    margin-bottom: -15px;
+  }
+  .heroImg {
+    width: 600px;
+    height: 300px;
+  }
+  .dapps-services-table {
+    column-gap: 3.5em;
+  }
+  .portfolio-left-side img {
+    margin-left: -65px;
+  }
+  .firstPortfolioImg {
+    margin-left: -30px;
+  }
+  .portfolio-table h1 {
+    width: 100%;
+  }
+  .portfolio-table p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 774px) {
+  .heroImg {
+    height: 400px;
+  }
+  .heroPageContext h1 {
+    font-size: 18px;
+  }
+  .heroPageContext p {
+    width: 115%;
+    font-size: 10px;
+    margin-top: -45px;
+    margin-bottom: -20px;
+  }
+  .webApps-development-services-container {
+    height: 750px;
+    margin-top: -120px;
+    margin-bottom: 100px;
+  }
+  .dapps-services-table h1 {
+    font-size: 20px;
+    color: black;
+  }
+
+  .left-webAndMob-services img {
+    margin-top: 120px;
+  }
+  .dapps-development-services-container {
+    margin-top: -60px;
+    padding-bottom: 300px;
+    height: 1100px;
+    background-size: cover;
+  }
+  .webApps-development-services-container {
+    margin-top: -200px !important;
+    margin-bottom: -200px !important;
+    height: 1100px !important;
+    background-size: cover !important;
+  }
+  .dapps-services-heading {
+    margin-top: 300px;
+  }
+  .right-dapps-services img {
+    width: 600px;
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .heroPageContext h1 {
+    font-size: 18px;
+    width: 150%;
+  }
+  .dapps-services-content p {
+    font-size: 12px;
+  }
+  .dapps-services-table h1 {
+    font-size: 17px;
+  }
+
+  .portfolio-left-side img {
+    width: 320px;
+    margin-left: -0px;
+    margin-top: 70px;
+  }
+  .portfolio-box .feature-box > h1 {
+    font-size: 15px !important;
+    padding-top: 5px;
+  }
+  .portfolio-box h1,
+  .portfolio-box h1 > span {
+    font-size: 20px;
+    width: 95%;
+  }
+  .portfolio-box p {
+    font-size: 15px;
+    width: 95%;
+  }
+  .portfolio-box .feature-heading button {
+    width: 140px;
+    height: 45px;
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .services > .service-para > p,
+  .why-us > .why-para > p,
+  .clients-para,
+  .portfolio-para {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+  .firstPortfolioDiv {
+    margin-left: -20px;
+  }
+  .feature-heading {
+    width: 90%;
+  }
+  .portfolio-table h1 {
+    width: 90%;
+  }
+  .portfolio-table p {
+    width: 90%;
+  }
+  .development-img-1 {
+    width: 300px;
+  }
+  .left-webAndMob-services img {
+    width: 650px;
+    margin-top: 125px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .portfolio-left-side img {
+    width: 300px;
+    margin-left: -15px;
+  }
+  .dapps-development-services-container {
+    margin-top: -120px;
+    padding-bottom: 300px;
+    height: 1300px;
+    background-size: cover;
+  }
+  .dapp-architecture-image img {
+    margin-left: -50px;
+  }
+  .heroImg {
+    margin-left: -80px;
+    width: 500px;
+    height: 320px;
+  }
+  .heroPageContext h1 {
+    font-size: 16px;
+    width: 170%;
+  }
+  .heroPageContext p {
+    width: 125%;
+    font-size: 9px;
+    margin-top: -45px;
+    margin-bottom: -20px;
+  }
+
+  .heroPageContext button {
+    height: 30px;
+    width: 120px;
+    font-size: 13px;
+  }
+  .hero-btn {
+    width: 120px;
+    height: 30px;
+    margin-left: -8px;
+  }
+  .service-img-1 {
+    width: 500px;
+    margin-left: 30px;
+  }
+  .service-img-2 {
+    width: 170px;
+    margin-left: 40px;
+  }
+
+  .left-dapps-services,
+  .right-dapps-services,
+  .left-webAndMob-services {
+    width: 100% !important;
+    display: block !important;
+  }
+  .left-dapps-services {
+    margin-top: -400px;
+    margin-left: -50px;
+  }
+  .dapp-architecture-image img {
+    margin-left: -90px;
+    width: 700px;
+    height: 500px;
+  }
+  .webMobDevSection p {
+    color: black;
+    width: 150%;
+    font-weight: 500;
+    margin-left: -80px;
+    margin-bottom: -300px;
+  }
+  .left-webAndMob-services img {
+    width: 900px;
+    margin-left: -190px;
+    margin-top: 170px;
+  }
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    column-gap: 3em;
+    row-gap: 1em;
+  }
+
+  .right-dapps-services {
+    margin: 0 auto;
+    margin-left: -430px;
+    margin-top: 900px;
+  }
+  .webAppsTable {
+    margin-top: 250px !important;
+    margin-left: -50px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto)) !important;
+  }
+  .portfolio-heading {
+    margin-top: 300px;
+  }
+  .footer-left-side {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer-right-side {
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer-content h1 {
+    font-size: 17px;
+  }
+  .footer-content h3 {
+    font-size: 15px;
+  }
+  .footer-content p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 584px) {
+  .portfolio-table {
+    display: block;
+  }
+  .portfolio-box {
+    padding-left: 40px;
+    width: 130%;
+  }
+  .portfolio-right-side {
+    width: 100%;
+  }
+  .portfolio-left-side img {
+    width: 450px;
+    margin-left: -0px;
+    margin-top: 70px;
+  }
+  .firstPortfolioDiv {
+    margin-bottom: 100px;
+    padding-left: 35px !important;
+  }
+  .feature-heading {
+    width: 90%;
+  }
+  .portfolio-table p {
+    width: 90%;
+  }
+  .secondPortfolioDiv p {
+    width: 90% !important;
+  }
+  .row {
+    display: block;
+  }
+  .col-6 {
+    display: block !important;
+    width: 200% !important;
+  }
+  .heroImg {
+    margin-left: -80px;
+    margin-top: -70px;
+    width: 700px;
+    height: 380px;
+  }
+  .heroPageContext h1 {
+    font-size: 33px;
+    width: 200%;
+    line-height: 35px;
+    margin-top: -70px;
+  }
+  .heroPageContext p {
+    width: 200%;
+    font-size: 15px;
+    margin-top: -30px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .development-img-1 {
+    width: 230px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .dapp-architecture-image img {
+    margin-left: -116px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .heroPageContext h1 {
+    font-size: 31px;
+    width: 230%;
+    line-height: 35px;
+    margin-top: -70px;
+  }
+  .whyUsHeadingDiv {
+    left: -6%;
+  }
+  .right-dapps-services {
+    margin-left: -380px;
+  }
+  .dapp-architecture-heading img {
+    width: 400px;
+    margin-left: 30px !important;
+    margin: 0 auto;
+  }
+  .servicesHeadingProviding {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .whyUsHeading {
+    font-size: 29px;
+  }
+  .whyUsPurpleLine {
+    height: 20px !important;
+    width: 120px !important;
+    margin-left: 0px !important;
+  }
+  .services-heading {
+    width: 93% !important;
+    margin-left: 40px;
+  }
+  .servicesHeadingPrplLne {
+    height: 25px;
+    width: 170px;
+  }
+  .heroImg {
+    margin-left: -100px;
+    width: 650px;
+    height: 350px;
+  }
+  .service-img-1 {
+    width: 400px;
+    margin-left: 95px;
+  }
+  .service-img-2 {
+    width: 160px;
+    margin-left: 90px;
+    margin-top: 30px;
+  }
+  .services {
+    margin-left: -40px;
+  }
+  .service-para {
+    margin-left: 25px;
+  }
+  .left-webAndMob-services img {
+    margin-left: -219px;
+  }
+  .dapps-services-content {
+    margin-left: -20px;
+  }
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    column-gap: 2em;
+    row-gap: 1em;
+    margin-left: -20px;
+  }
+  .dapps-services-table h1 {
+    font-size: 15px;
+  }
+  .dapp-architecture-image img {
+    margin-left: -130px;
+  }
+  .dapps-development-services > .webMobDevSection {
+    position: relative;
+    top: 120px;
+  }
+  .webApps-development-services-container {
+    background-position: right;
+    height: 1500px !important;
+  }
+  .webMobDevSection p {
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav {
+    width: 100%;
+  }
+  .navbar img {
+    height: 130px;
+    width: 230px;
+    top: -35px;
+  }
+  #navBarToggler,
+  #navBarTogglerCross {
+    margin-top: 50px !important;
+  }
+  #navBarTogglerCross {
+    height: 20px !important;
+    width: 20px !important;
+    margin-left: -30px;
+  }
+  #collapseBox {
+    width: 250px;
+  }
+  .clients-heading {
+    width: 420px;
+  }
+  .clients-heading h1 {
+    font-size: 30px;
+  }
+  .dapp-architecture-image img {
+    margin-left: -100px;
+    width: 600px;
+    height: 450px;
+  }
+  .dapps-development-services > .webMobDevSection h1 {
+    font-size: 35px;
+  }
+  .left-webAndMob-services img {
+    width: 850px;
+    margin-left: -220px;
+    margin-top: 100px;
+  }
+  .firstPortfolioImg {
+    margin-left: 0px;
+  }
+  .portfolio-left-side img {
+    margin-left: -40px;
+  }
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+    column-gap: 2em;
+    margin-left: -37px;
+  }
+  .dapps-services-table h1 {
+    font-size: 13px;
+  }
+  .footer-nav-bar ul li {
+    font-size: 12px;
+    padding: 0px 5px;
+  }
+  .footer-nav-bar ul li span {
+    padding-right: 5px;
+  }
+  .footer-content h1 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .service-img-1 {
+    margin-left: 70px;
+  }
+  .heroPageContext h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .heroPageContext p {
+    font-size: 14px;
+    margin-top: -35px;
+    font-weight: 450;
+    line-height: 18px;
+  }
+  .heroImg {
+    margin-left: -100px;
+    width: 600px;
+    height: 320px;
+  }
+  .mainPage {
+    height: 90vh;
+  }
+  .left-webAndMob-services img {
+    margin-left: -235px;
+  }
+  .portfolio-heading {
+    margin-top: 60px !important;
+  }
+  .portfolio-para {
+    margin-bottom: -140px;
+  }
+  .dapps-services-heading h1 {
+    font-size: 25px;
+  }
+  .dapps-services-heading img {
+    width: 180px;
+  }
+  .webAppsTable {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .holdingSmartPhoneImg {
+    margin-left: -200px !important;
+  }
+  .dapp-architecture-heading {
+    text-align: center;
+    margin-left: -20px;
+  }
+  .dapp-architecture-heading img {
+    width: 280px !important;
+  }
+  .dapp-architecture-image img {
+    margin-left: -95px;
+    width: 570px;
+    height: 430px;
+  }
+  .left-webAndMob-services img {
+    width: 790px;
+    margin-left: -210px;
+    margin-top: 50px;
+  }
+  .portfolio {
+    margin-left: -10px;
+  }
+  .webAppsTable {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .service-img-1 {
+    width: 340px;
+    margin-left: 85px;
+  }
+  .service-img-2 {
+    width: 120px;
+    margin-top: 25px;
+  }
+  .webAppsTable {
+    margin-left: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, auto)) !important;
+  }
+  .portfolio-left-side img {
+    width: 420px;
+    margin-left: -35px;
+  }
+  .holdingSmartPhoneImg {
+    margin-left: -180px !important;
+  }
+  .webMobDevSection h1 {
+    font-size: 30px !important;
+  }
+  .dapp-architecture-heading img {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 440px) {
+  .dapp-architecture-image img {
+    margin-left: -98px;
+    width: 560px;
+  }
+  .left-webAndMob-services img {
+    width: 750px;
+    margin-left: -205px;
+  }
+  .dapp-architecture-heading img {
+    margin-left: 0px !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .heroImg {
+    margin-left: -90px;
+    margin-top: -50px;
+    width: 550px;
+    height: 280px;
+  }
+  .service-img-1 {
+    width: 315px;
+  }
+  .service-img-2 {
+    width: 110px;
+  }
+  .webAppsTable {
+    margin-left: 45px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, auto)) !important;
+  }
+  .holdingSmartPhoneImg {
+    margin-left: -100px !important;
+    width: 500px !important;
+  }
+
+  .dapp-architecture-image img {
+    margin-left: -95px;
+    width: 540px;
+    height: 400px;
+  }
+  .portfolio-left-side img {
+    width: 400px;
+  }
+  .servicesHeadingProviding {
+    font-size: 25px;
+  }
+  .services-heading {
+    width: 80% !important;
+    margin: 0 auto;
+    margin-left: 65px;
+  }
+  .servicesHeadingPrplLne {
+    left: 50%;
+  }
+  .servicesHeadingPrplLne {
+    height: 25px;
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .clients-heading {
+    width: 400px;
+  }
+  .clients-heading h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .dapps-services-table {
+    grid-template-columns: repeat(auto-fit, minmax(80px, auto));
+    column-gap: 3em;
+  }
+  .webMobDevSection h1 {
+    font-size: 27px !important;
+  }
+  .left-webAndMob-services img {
+    width: 700px;
+    margin-left: -192px;
+  }
+  .webAppsTable {
+    margin-left: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(70px, auto)) !important;
+  }
+  .dapp-architecture-image img {
+    margin-left: -92px;
+    width: 520px;
+    height: 380px;
+  }
+  .dapp-architecture-heading img {
+    margin-left: -30px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .socialMediaIcons {
+    margin-top: -5px;
+  }
+  .heroPageContext h1 {
+    margin-top: -90px;
+    font-size: 22px;
+  }
+  .heroImg {
+    margin-left: -75px;
+    margin-top: -32px;
+    width: 500px;
+    height: 250px;
+  }
+  .service-img-1 {
+    width: 295px;
+  }
+  .service-img-2 {
+    width: 100px;
+    margin-top: 20px;
+  }
+  .development-img-2 {
+    width: 170px !important;
+  }
+  .development-img-1 {
+    width: 150px !important;
+  }
+  .dapps-services-content p {
+    font-size: 10px !important;
+    width: 110%;
+  }
+  .img-1 {
+    width: 40px;
+    height: 40px;
+  }
+  .img-2 {
+    width: 40px;
+    height: 40px;
+  }
+  .img-2 svg {
+    width: 20px;
+    height: 25px;
+    margin-top: 3px;
+  }
+  .dapps-services-table h1 {
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+  .portfolio-left-side img {
+    width: 388px;
+  }
+
+  .holdingSmartPhoneImg {
+    margin-left: -67px !important;
+    width: 470px !important;
+  }
+  .dappsPara {
+    line-height: 17px !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .webAppsTable {
+    margin-left: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(70px, auto)) !important;
+    column-gap: 5em;
+    row-gap: 0em;
+  }
+  .navbar img {
+    height: 110px;
+    width: 180px;
+    top: -25px;
+  }
+  #navBarToggler,
+  #navBarTogglerCross {
+    margin-top: 38px !important;
+  }
+  .footer-nav-bar ul li {
+    font-size: 11px;
+    padding: 0px 3px;
+  }
+  .footer-nav-bar ul li span {
+    padding-right: 3px;
+  }
+  .footer-content h1 {
+    font-size: 14px;
+  }
+  .footer-left-side {
+    width: 45%;
+  }
+  .footer-right-side {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .service-img-1 {
+    width: 280px;
+  }
+  .whyUsHeadingDiv {
+    left: -10%;
+  }
+  .holdingSmartPhoneImg {
+    margin-left: -40px !important;
+    width: 450px !important;
+  }
+  .dapp-architecture-heading img {
+    margin-left: -43px !important;
+  }
+  .dapp-architecture-image img {
+    width: 500px;
+    height: 360px;
+  }
+  .left-webAndMob-services img {
+    width: 675px;
+  }
+  .webAppsTable {
+    margin-left: 80px;
+  }
+  .portfolio-left-side img {
+    width: 372px;
+  }
+  .webAppsTable {
+    width: 100%;
+    margin-left: 90px;
+    grid-template-columns: repeat(auto-fit, minmax(110px, auto)) !important;
+    column-gap: 0em;
+  }
+  .footer-content h1 {
+    font-size: 13px;
+  }
+  .clients-heading {
+    width: 370px;
+  }
+  .clients-heading h1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .socialMediaIcons ul li img {
+    width: 13px !important;
+  }
+  .fbiconClass {
+    max-width: 8px !important;
+  }
+  .socialMediaIcons {
+    margin-top: -10px;
+  }
+  .heroPageContext h1 {
+    margin-top: -95px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .heroPageContext p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .heroImg {
+    margin-left: -70px;
+    margin-top: -30px;
+    width: 470px;
+    height: 230px;
+  }
+  .dapp-architecture-heading img {
+    margin-left: -47px !important;
+  }
+  .dapp-architecture-image img {
+    width: 488px;
+  }
+  .webMobDevSection h1 {
+    font-size: 25px !important;
+  }
+  .left-webAndMob-services img {
+    margin-bottom: -200px;
+  }
+  .webMobDevSection p {
+    font-weight: 500;
+    margin-left: -50px;
+    margin-bottom: -480px;
+    font-size: 13px;
+    margin-top: -30px;
+  }
+  .servicesHeadingProviding {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .service-img-1 {
+    width: 260px;
+  }
+  .service-para p {
+    font-size: 12px !important;
+    line-height: 18px;
+  }
+  .dapps-services-table h1 {
+    font-size: 12px;
+  }
+  .left-webAndMob-services img {
+    width: 665px;
+  }
+  .webMobDevSection p {
+    margin-bottom: -480px;
+  }
+}
